@@ -33,11 +33,11 @@ const displayPhones = (phones) => {
     phonesContainer.appendChild(phoneDiv);
   });
   //stop spinner or loader
-  // toggleSpineer(false);
+  toggleSpineer(false);
 };
 document.getElementById("btn-search").addEventListener("click", function () {
   // start loader
-  // toggleSpineer(true);
+  toggleSpineer(true);
   const searchField = document.getElementById("search-field");
   const searchText = searchField.value;
 
